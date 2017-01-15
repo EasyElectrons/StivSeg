@@ -16,16 +16,6 @@ Multi-digit seven-segment display library for arduino.  Light-weight design allo
 
 ###Example
 ```
-/* StivSeg Library 1.0
- * https://github.com/stephentracz/StivSeg
- * 
- * TimerOne MUST be installed to use this example.  Search
- * "TimerOne" in the library manager.
- * 
- * Set required values for your display below.  Then connect
- * the wiper of a voltage-dividing potentiometer up to A0.
- */
-
 #include <TimerOne.h>
 #include <StivSeg.h>
 
