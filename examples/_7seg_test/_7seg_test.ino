@@ -1,4 +1,5 @@
-/* StivSeg Library 1.0
+/* StivSeg Library 1.0.1
+ *  By Stephen "Stiv" Racz
  * https://github.com/stephentracz/StivSeg
  * 
  * TimerOne MUST be installed to use this example.  Search
@@ -19,8 +20,8 @@ bool isComCathode = true;
 StivSeg disp(2, digitPins, segPins, isComCathode);
 
 void setup() {
-  checkPot(); //Manually checks pot so display isn't blank for 1st .25 of operation
-  Timer1.initialize(250e3); //TimerOne stuff: triggers interrupt ever 250e3us (.25s)
+  checkPot(); //Manually checks pot so display isn't blank for 1st .25s of operation
+  Timer1.initialize(250e3); //TimerOne stuff: triggers interrupt every 250e3us (.25s)
   Timer1.attachInterrupt(checkPot); //More TimerOne stuff
 }
 
