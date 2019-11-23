@@ -13,7 +13,7 @@ StivSeg	KEYWORD1
 #######################################
 
 writeInt	KEYWORD2
-writeFloat  KEYWORD2
+writeFloat	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
